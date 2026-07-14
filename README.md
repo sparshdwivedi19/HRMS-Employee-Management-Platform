@@ -1,16 +1,285 @@
-# React + Vite
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:111827,40:14532d,100:22c55e&height=220&section=header&text=HRMS&fontSize=70&fontColor=ffffff&fontAlignY=35&desc=Employee%20Management%20Platform&descAlignY=60&descSize=22"/>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">
+👨‍💼 HRMS - Employee Management Platform
+</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+A modern Human Resource Management System (HRMS) built with the MERN Stack that streamlines employee management, task allocation, authentication, and workflow monitoring through dedicated Admin and Employee dashboards.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">
 
-## React Compiler
+<img src="https://img.shields.io/badge/MERN-Full%20Stack-success?style=for-the-badge"/>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
 
-## Expanding the ESLint configuration
+<img src="https://img.shields.io/badge/Responsive-Yes-blue?style=for-the-badge"/>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge"/>
+
+</p>
+
+---
+
+# 📖 Overview
+
+Managing employees manually becomes inefficient as organizations grow.
+
+This project provides a centralized platform where administrators can manage employees, assign work, monitor progress, and maintain organizational records, while employees can access their dashboards, manage assigned tasks, and update work status.
+
+The application follows a scalable MERN architecture with a clean and responsive user interface.
+
+---
+
+# ✨ Key Features
+
+## 👨‍💼 Admin Dashboard
+
+- Employee Management
+- Add New Employees
+- Assign Tasks
+- Monitor Employee Progress
+- View Employee Information
+- Manage Organization Workflow
+
+---
+
+## 👨‍💻 Employee Dashboard
+
+- Personal Dashboard
+- View Assigned Tasks
+- Update Task Status
+- Track Work Progress
+- Manage Profile
+
+---
+
+# 🚀 Highlights
+
+- ✅ Modern Dashboard UI
+- ✅ Role-Based Authentication
+- ✅ Employee Workflow Management
+- ✅ Task Assignment System
+- ✅ Responsive Design
+- ✅ REST API Architecture
+- ✅ Scalable MERN Stack
+- ✅ Clean Folder Structure
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technologies |
+|------------|------------------------------|
+| Frontend | React.js, JavaScript, CSS |
+| Backend | Node.js, Express.js |
+| Database | MongoDB |
+| Authentication | JWT |
+| API Testing | Postman |
+| Version Control | Git & GitHub |
+
+---
+
+# 📸 Application Preview
+
+## 👨‍💼 Admin Dashboard
+
+<p align="center">
+<img src="./screenshots/adminDashboard.png" width="95%">
+</p>
+
+---
+
+## 👨‍💻 Employee Dashboard
+
+<p align="center">
+<img src="./screenshots/employeeDashboard.png" width="95%">
+</p>
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                React Frontend
+                      │
+                      ▼
+               Express REST APIs
+                      │
+      ┌───────────────┼───────────────┐
+      ▼               ▼               ▼
+ Authentication    Business Logic    Task Management
+                      │
+                      ▼
+                  MongoDB Database
+```
+
+---
+
+# 📂 Folder Structure
+
+```text
+HRMS-Employee-Management-Platform/
+
+client/
+│
+├── components/
+├── pages/
+├── context/
+├── assets/
+└── utils/
+
+server/
+│
+├── controllers/
+├── middleware/
+├── models/
+├── routes/
+├── config/
+└── utils/
+
+screenshots/
+
+README.md
+```
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/sparshdwivedi19/HRMS-Employee-Management-Platform.git
+```
+
+---
+
+## Frontend
+
+```bash
+cd client
+
+npm install
+
+npm run dev
+```
+
+---
+
+## Backend
+
+```bash
+cd server
+
+npm install
+
+npm run dev
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env` file inside the server directory.
+
+```env
+PORT=
+
+MONGO_URI=
+
+JWT_SECRET=
+```
+
+---
+
+# 🚀 Future Enhancements
+
+- Email Notifications
+- Attendance Management
+- Payroll Module
+- Leave Management
+- Employee Performance Analytics
+- Department Management
+- Calendar Integration
+- AI-based Performance Insights
+- Document Management
+- HR Reports Dashboard
+
+---
+
+# 📚 Learning Outcomes
+
+During this project I gained hands-on experience in:
+
+- Full Stack MERN Development
+- REST API Design
+- MongoDB Database Modeling
+- JWT Authentication
+- Dashboard Development
+- Component-Based React Architecture
+- Backend Routing & Middleware
+- CRUD Operations
+- Real-world HRMS Workflow Design
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+
+2. Create a new feature branch
+
+```bash
+git checkout -b feature/NewFeature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "feat: add new feature"
+```
+
+4. Push to your branch
+
+```bash
+git push origin feature/NewFeature
+```
+
+5. Open a Pull Request
+
+---
+
+# 👨‍💻 Developer
+
+## Sparsh Dwivedi
+
+🎓 B.Tech Computer Science & Engineering
+
+🏫 IIITDM Jabalpur
+
+### Connect with Me
+
+- GitHub: https://github.com/sparshdwivedi19
+- LinkedIn: *(Add Your LinkedIn URL)*
+- Portfolio: *(Add Your Portfolio URL)*
+- Email: *(Add Your Email Address)*
+
+---
+
+# ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
+
+It motivates me to build more real-world software projects.
+
+<p align="center">
+
+Made with ❤️ using React • Node.js • Express.js • MongoDB
+
+</p>
