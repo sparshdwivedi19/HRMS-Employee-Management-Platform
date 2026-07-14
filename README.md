@@ -88,7 +88,7 @@ The application follows a scalable MERN architecture with a clean and responsive
 ## 👨‍💼 Admin Dashboard
 
 <p align="center">
-<img src="./screenshots/adminDashboard.png" width="95%">
+<img src="./screenshots/adminDasboard.png" width="95%">
 </p>
 
 ---
